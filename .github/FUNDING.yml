@@ -1,0 +1,249 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Yeasin Dewan | Graphic Designer</title>
+<meta name="description" content="Official personal portfolio website of Yeasin Dewan, Junior Graphic Designer from Bangladesh.">
+<meta name="keywords" content="Yeasin Dewan, yeasindewan21bd, Graphic Designer, Bangladesh">
+<meta name="author" content="Yeasin Dewan">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    color: #202020;
+}
+
+header {
+    width: 100%;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 15px #eee;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #087cff;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 22px;
+    color: #333;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #087cff;
+}
+
+.hero {
+    min-height: 82vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.hero-content {
+    max-width: 750px;
+}
+
+.hero small {
+    color: #087cff;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.hero h1 {
+    font-size: 58px;
+    margin: 22px 0;
+}
+
+.hero h1 span {
+    color: #087cff;
+}
+
+.hero p {
+    font-size: 19px;
+    color: #777;
+    line-height: 1.7;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 28px;
+    padding: 14px 32px;
+    background: #087cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+    transform: translateY(-3px);
+}
+
+section {
+    padding: 80px 10%;
+}
+
+.about {
+    background: #f7faff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.9;
+    color: #666;
+    font-size: 17px;
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-info {
+    max-width: 550px;
+    margin: 30px auto;
+    text-align: left;
+    line-height: 2.5;
+}
+
+.contact-info a {
+    color: #087cff;
+    text-decoration: none;
+    overflow-wrap: anywhere;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+footer span {
+    color: #4c9dff;
+}
+
+@media(max-width:650px) {
+    header {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    nav a {
+        margin: 0 8px;
+    }
+
+    .hero h1 {
+        font-size: 39px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 60px 7%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">YEASIN<span>.</span></div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <small>WELCOME TO MY WEBSITE</small>
+        <h1>I'm <span>Yeasin Dewan</span></h1>
+        <p>Junior Graphic Designer | Creative Designer</p>
+        <a href="#about" class="btn">Discover More</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        Hello! I'm Yeasin Dewan, a Junior Graphic Designer
+        from Bangladesh. I have been working in graphic design
+        for 1 year now. I love creativity, design and making
+        beautiful visual content.
+        <br><br>
+        My goal is to improve my skills and create amazing designs.
+        <br><br>
+        <strong>BY YEASIN DEWAN</strong>
+    </p>
+</section>
+
+<section class="contact" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+
+    <div class="contact-info">
+        <p><strong>Name:</strong> Yeasin Dewan</p>
+        <p><strong>Profession:</strong> Graphic Designer</p>
+        <p><strong>Phone:</strong>
+        <a href="tel:01867364263">01867 364 263</a></p>
+        <p><strong>Email:</strong>
+        <a href="mailto:yasindewan444@gmail.com">
+        yasindewan444@gmail.com</a></p>
+        <p><strong>Address:</strong> Bangladesh</p>
+        <p><strong>Facebook:</strong>
+        <a href="https://www.facebook.com/share/1EAapVfq8H/"
+        target="_blank">Visit My Facebook</a></p>
+    </div>
+
+    <a class="btn"
+    href="https://www.facebook.com/share/1EAapVfq8H/"
+    target="_blank">Connect With Me</a>
+</section>
+
+<footer>
+    <p>© 2026 <span>YEASIN DEWAN</span></p>
+    <p>All Rights Reserved.</p>
+    <p>Official Website: yeasindewan21bd</p>
+</footer>
+
+</body>
+</html>
